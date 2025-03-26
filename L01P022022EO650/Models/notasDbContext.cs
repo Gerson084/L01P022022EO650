@@ -8,10 +8,10 @@ namespace L01P022022EO650.Models
         {
 
         }
-        public DbSet<Facultad> Facultades { get; set; }
-        public DbSet<Departamento> Departamentos { get; set; }
-        public DbSet<Materia> Materias { get; set; }
-        public DbSet<Alumno> Alumnos { get; set; }
+        public DbSet<facultades> facultades { get; set; }
+        public DbSet<departamentos> departamentos { get; set; }
+        public DbSet<materias> materias { get; set; }
+        public DbSet<alumnos> alumnos { get; set; }
 
     }
 }
