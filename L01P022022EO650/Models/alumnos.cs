@@ -20,7 +20,6 @@ namespace L01P022022EO650.Models
         public string apellidos { get; set; }
 
         [Required(ErrorMessage = "Debe ingresar el DUI!")]
-        [StringLength(10)]
         public int dui { get; set; }
 
         public int estado { get; set; }

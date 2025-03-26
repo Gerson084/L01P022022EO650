@@ -15,7 +15,6 @@ namespace L01P022022EO650.Models
         public int unidades_valorativas { get; set; }
 
         [Required(ErrorMessage = "Ingresar estado! (A = Activa, N = No disponible")]
-        [StringLength(1)]
         public char estado { get; set; }
     }
 }
